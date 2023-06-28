@@ -10,10 +10,42 @@
 </head>
 <body>
     <div class="container">
- <h1>
-    Weather App
- </h1>  
+<h1 id="city">
+    Seattle
+</h1>
+<ul>
+    <li id="date">
+        Friday 5:00
+    </li>
+    <li id="description">
+        Clear
+    </li>
+</ul>
+<div class="row">
+    <div class="col-6">
+      <div class="weatherTemperature">
+        <img src="" alt="weatherEmoji" id="weather-icon" class="float-left" />
+        <div class="float-left">
+          <strong id="temperature"></strong
+          ><span class="units"> °F | °C</span>
+        </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <ul>
+            <li> Percipitation <span id="percipitation"> %</span> 
+               
+            </li>
+            <li> Humidity <span id="humidity">%</span> 
+            </li>
+            <li> 
+                Wind <span id="wind">mph</span>
+            </li>
+        </ul>
+    </div>
 
+</div>
+<small> <a href="https://github.com/elaizahoxha/vweather-app/tree/a735692dffa3fc28a8482d53173f2b1d23fdcec8" target="_blank"> Open-sourced code</a> by Elaiza Hoxha</small>
 </div>
  <script src="src/index.js"></script>
 </body>
