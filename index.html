@@ -10,6 +10,7 @@
 </head>
 <body>
     <div class="container">
+        <div class="weather-app">
 <h1 id="city">
     Seattle
 </h1>
@@ -23,13 +24,13 @@
 </ul>
 <div class="row">
     <div class="col-6">
-      <div class="weatherTemperature">
-        <img src="" alt="weatherEmoji" id="weather-icon" class="float-left" />
-        <div class="float-left">
-          <strong id="temperature"></strong
-          ><span class="units"> °F | °C</span>
-        </div>
-        </div>
+        <div class="d-flex weather-temperature">
+            <img src="" alt="Clear" id="icon" />
+            <div>
+              <strong id="temperature"></strong
+              ><span class="units"> °C</span>
+            </div>
+          </div>
     </div>
     <div class="col-6">
         <ul>
@@ -43,7 +44,7 @@
             </li>
         </ul>
     </div>
-
+</div>
 </div>
 <small> <a href="https://github.com/elaizahoxha/vweather-app/tree/a735692dffa3fc28a8482d53173f2b1d23fdcec8" target="_blank"> Open-sourced code</a> by Elaiza Hoxha</small>
 </div>
