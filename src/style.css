@@ -80,3 +80,7 @@ text-decoration: none;
 .weather-temperature-forcast {
     font-size: 12px;
 }
+
+.tempBar {
+    color: rgba(92, 92, 92, 0.919);
+}
